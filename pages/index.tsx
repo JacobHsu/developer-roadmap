@@ -56,7 +56,7 @@ export default function Home(props: HomeProps) {
               path and guide their learnings.
             </Text>
 
-            <Text fontSize={['14px', '14px', '16px']}>
+            {/* <Text fontSize={['14px', '14px', '16px']}>
               We also have a{' '}
               <Link
                 textDecoration={'underline'}
@@ -74,7 +74,7 @@ export default function Home(props: HomeProps) {
                 YouTube channel
               </Link>{' '}
               which we hope you are going to love.
-            </Text>
+            </Text> */}
           </Box>
           <SimpleGrid columns={[1, 2, 3]} spacing={['10px', '10px', '15px']}>
             {roadmaps.map((roadmap: RoadmapType, counter: number) => (
